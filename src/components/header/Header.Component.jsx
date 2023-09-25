@@ -1,3 +1,5 @@
+import BaseBtn from "../Base-button/BaseBtn.component";
+
 import "./Header.styles.scss";
 
 const Header = () => {
@@ -9,7 +11,7 @@ const Header = () => {
         <p>
           I am a passionate UK-based front-end developer with over four years of
           experience working with a variety of libraries, frameworks & platforms such as
-          React, Redux, NextJS, NodeJs/ Express, SASS, BigCommerce, Shopify, Webflow and
+          React, Redux, NextJS, NodeJs/ Express, MongoDB, Firebase, SASS, BigCommerce, Shopify, Webflow and
           WordPress. I build dynamic & intuitive user experiences that drive
           sales increase exposure and deliver brand messages effectively.
         </p>
@@ -21,7 +23,8 @@ const Header = () => {
           className="header-image"
         />
       </div>
-    </div>
+
+    </div>  
   );
 };
 
