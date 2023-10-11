@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="text-content">
-        <h2>Fullstack Web Developer</h2>
+        
+        <h2>Full Stack Web Developer</h2>
         <h1>GRANT KINGHORN</h1>
         <p>
           I am a passionate UK-based front-end developer with over four years of

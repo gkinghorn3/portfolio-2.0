@@ -3,11 +3,17 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
 
 
     .logo-container {
         display: inline-block;
+
+        img {
+            width: 120px;
+
+
+        }
     }
 
     .nav-links-container {
@@ -19,6 +25,14 @@
             font-weight: bold;
             display: flex;
             align-items: center;
+        }
+
+        a {
+            margin: 0 1rem;
+
+            img {
+                margin-top: 5px;
+            }
         }
     }
 }
