@@ -5,14 +5,17 @@
     width: 100%;
     padding: 1rem 3rem;
 
+    @media (max-width: 500px) {
+        padding: 1rem 1rem;
+    }
+
 
     .logo-container {
         display: inline-block;
 
         img {
-            width: 120px;
-
-
+            margin-top: 10px;
+            width: clamp(5.625rem, 3.8194rem + 7.4074vw, 9.375rem);
         }
     }
 
@@ -23,15 +26,21 @@
         .nav-link {
             margin: 0 1rem;
             font-weight: bold;
+            font-size: 1.2rem;
             display: flex;
             align-items: center;
+            
+
+            @media (max-width: 768px) {
+                display: none;
+            }
         }
 
         a {
             margin: 0 1rem;
 
             img {
-                margin-top: 5px;
+                margin-top: 10px;
             }
         }
     }
