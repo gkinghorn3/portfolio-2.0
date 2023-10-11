@@ -1,7 +1,14 @@
+$highlight-color: #64FFDA;
 
-.base-btn {
+button {
     color: white;
-    background-color: #FFB459;
-    padding: 5px 10px;
-    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: solid 4px $highlight-color;
+    font-size: 1.6rem;
+    font-weight: bold;
+    max-width: 200px;
+    border-radius: 6px;
+    color: $highlight-color;
+
 }

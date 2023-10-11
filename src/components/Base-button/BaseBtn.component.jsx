@@ -1,9 +1,9 @@
 import './BaseBtn.styles.scss';
 
-const BaseBtn = ({clickHandler, btnText}) => {
+const BaseBtn = ({clickHandler, btnText, className}) => {
 
     return (
-        <button onClick={clickHandler} className='base-btn'>{btnText}</button>
+        <button onClick={clickHandler} className='header-cta' >{btnText}</button>
 
     )
 }
