@@ -16,10 +16,10 @@ const Navigation = () => {
         <Link to="about" smooth={true} duration={1000} className="nav-link">
           Contact
         </Link>
-        <a href="https://www.linkedin.com/in/grant-kinghorn-4b817a192/">
+        <a href="https://www.linkedin.com/in/grant-kinghorn-4b817a192/" target="_blank">
           <img src="/images/icons/linkedIn.svg" />
         </a>
-        <a href="https://github.com/gkinghorn3">
+        <a href="https://github.com/gkinghorn3" target="_blank">
           <img src="/images/icons/gitHub.svg" />
         </a>
       </div>
