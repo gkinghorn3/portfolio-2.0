@@ -1,8 +1,10 @@
 * {
   padding: 0;
   margin: 0;
- box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+
 
 :root {
   font-family: 'Mulish', system-ui, Avenir, Helvetica, Arial, sans-serif;

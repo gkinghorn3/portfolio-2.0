@@ -18,6 +18,7 @@ $highlight-color: #64ffda;
     margin-top: 50px;
   }
 
+  
   .text-content {
     display: flex;
     flex-direction: column;
@@ -42,6 +43,7 @@ $highlight-color: #64ffda;
 
     .header-cta {
       margin-top: 2rem;
+      position: relative;
 
       &:hover {
         transform: translateY(-3px);
@@ -53,34 +55,39 @@ $highlight-color: #64ffda;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
       }
 
+
     }
 
-    .btn::after {
-      content: "";
-      display: inline-block;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      transition: all .4s;
-    }
+  
     
-    .btn-white::after {
-      background-color: white;
-    }
-    
-    .btn:hover::after {
-      transform: scaleX(1.4) scaleY(1.6);
-      opacity: 0;
-    }
-    }
-
-    @media (max-width: 500px) {
+    .header-cta {
       margin-top: 2rem;
+      position: relative;
+
+      &:hover {
+        transform: scale(1.03);
+        
+      }
+      
+      &:active {
+        transform: translateY(-1px);
+        
+      }
+
+      @media (max-width: 500px) {
+        margin-top: 2rem;
+      }
+    
+  
     }
-  }
+    @media (max-width: 500px) {
+        margin-top: 2rem;
+      }
+    
+  
+  
+    }
+
 
   .headshot-container {
     min-width: 330px;

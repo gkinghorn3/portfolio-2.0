@@ -1,11 +1,13 @@
+$secondary-bg: #1B3356;
 
-
-#root {
+#page-wrap {
   min-width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+    padding-bottom: 10px;
+  padding-top: 10px
 }
 
 
