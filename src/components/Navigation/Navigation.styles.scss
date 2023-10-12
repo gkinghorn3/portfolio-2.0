@@ -14,14 +14,19 @@
         display: inline-block;
 
         img {
-            margin-top: 13px;
+            
             width: clamp(5.625rem, 3.8194rem + 7.4074vw, 9.375rem);
+
+            @media (max-width: 700px) {
+                margin-top: 10px;
+            }
         }
     }
 
     .nav-links-container {
         display: flex;
         flex-direction: row;
+        align-items: center;;
 
         @media (max-width: 700px) {
             display: none;
@@ -41,9 +46,7 @@
         a {
             margin: 0 1rem;
 
-            img {
-                margin-top: 13px;
-            }
+          
         }
     }
 }

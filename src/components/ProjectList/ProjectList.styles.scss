@@ -1,0 +1,23 @@
+$secondary-bg: #1B3356;
+
+.project-list-container {
+    position: relative;
+    margin-top: 200px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+
+    @media (min-width: 1400px) {
+        width: 55%;
+    }
+
+
+    .project-section-heading {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        margin-bottom: 50px;
+    }
+}

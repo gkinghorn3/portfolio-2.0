@@ -3,9 +3,11 @@ $highlight-color: #64ffda;
 .header-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-top: 150px;
+  align-items: flex-start;
+  margin-top: 100px;
+  
   max-width: 80%;
+  height: 100vh;
 
   @media (max-width: 500px) {
     margin: 0 auto;
@@ -16,8 +18,13 @@ $highlight-color: #64ffda;
   @media (max-width: 994px) {
     flex-direction: column-reverse;
     margin-top: 50px;
+    justify-content: start;
+    align-items: center;
   }
 
+  @media (min-width: 1400px) {
+    width: 55%;
+}
   
   .text-content {
     display: flex;
@@ -34,6 +41,11 @@ $highlight-color: #64ffda;
       font-size: clamp(1.2rem, 1.0074rem + 0.7901vw, 1.6rem);
       margin-left: 5px;
       color: grey;
+
+      @media (max-width: 994px) {
+        margin-top: 1rem;
+      }
+
     }
 
     p {
@@ -90,13 +102,18 @@ $highlight-color: #64ffda;
 
 
   .headshot-container {
-    min-width: 330px;
+    min-width: 230px;
     max-width: 400px;
     margin-left: 20px;
+    
 
     @media (max-width: 994px) {
       max-width: 240px;
       min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center
+      
     }
 
     img {
