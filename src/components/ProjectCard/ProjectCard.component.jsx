@@ -13,9 +13,9 @@ const ProjectCard = ({
         projectCodeLink,
         projectImage,
         siteType
-    },
+    }, layoutOrientation,
 }) => {
-    const layoutOrientation = technologies.length % 2 === 0 ? "even" : "odd";
+    
 
     return (
         <article className={`project-container ${layoutOrientation}`}>
