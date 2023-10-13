@@ -3,21 +3,21 @@ $highlight-color: #64ffda;
 .header-container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  margin-top: 100px;
+  align-items: center;
+  margin-top: -130px;
   
   max-width: 80%;
-  height: 100vh;
+  height: 60rem;
 
   @media (max-width: 500px) {
-    margin: 0 auto;
+    margin-top: 20px;
     display: flex;
     max-width: 100%;
   }
 
   @media (max-width: 994px) {
     flex-direction: column-reverse;
-    margin-top: 50px;
+    
     justify-content: start;
     align-items: center;
   }
