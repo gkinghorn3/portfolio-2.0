@@ -4,10 +4,11 @@ $highlight-color: #64ffda;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
-  margin-top: 10rem;
+  
+  margin-top: 5rem;
   max-width: 80%;
-  height: 50rem;
+  height: 100vh;
+  
 
   @media (max-width: 500px) {
     margin-top: 20px;
@@ -24,9 +25,13 @@ $highlight-color: #64ffda;
 } 
 
   .header-content {
+  
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: fit-content;
+  
+    
 
     @media (max-width: 994px) {
       flex-direction: column-reverse;
@@ -34,7 +39,12 @@ $highlight-color: #64ffda;
       justify-content: start;
       align-items: center;
     }
+
+    @media (min-width: 1366px) {
+      margin-top: 5rem;
+    }
   }
+
   
   .text-content {
     display: flex;
@@ -133,7 +143,7 @@ $highlight-color: #64ffda;
 
   .header-scroll-icon {
 
-    margin-top: clamp(3rem, 0.297rem + 11.0891vw, 10rem);
+    margin-top: 5rem;
     width: 3rem;
 
     
