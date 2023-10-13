@@ -9,6 +9,10 @@ $tech-tag-color: #2A4977;
     display: flex;
     justify-content: space-between;
 
+    &.alternate {
+        flex-direction: row-reverse;
+    }
+
     .project-image-wrapper {
         width: 48%;
         border-radius: 16px;
@@ -81,6 +85,8 @@ $tech-tag-color: #2A4977;
       }
        
     }
+
+
 }
 
 
