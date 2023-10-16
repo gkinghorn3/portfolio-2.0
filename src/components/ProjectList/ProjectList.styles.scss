@@ -11,6 +11,11 @@ $secondary-bg: #1B3356;
     padding: 80px 0;
     min-height: 67rem;
 
+    @media (max-width: 994px){
+        width: 100%;
+
+    }
+
     @media (min-width: 1366px) {
         
         margin-top: -12rem;

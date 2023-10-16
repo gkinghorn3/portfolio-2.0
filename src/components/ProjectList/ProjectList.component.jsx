@@ -10,7 +10,7 @@ const projects = [
     technologies: ["Webflow", "HTML", "CSS", "Javascript"],
     projectSiteLink: "https://www.littlewhitepig.co.uk/",
     projectCodeLink: "",
-    projectImage: "/images/lwpfeature.jpg",
+    projectImage: "/images/LWPfullcapture.jpg",
     siteType: "site",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     technologies: ["Big Commerce", "HTML", "CSS", "handlebars"],
     projectSiteLink: "https://www.ndurancetools.co.uk/",
     projectCodeLink: "",
-    projectImage: "/images/Ndurance-header.jpg",
+    projectImage: "/images/Ndurancecapture.jpg",
     siteType: "site",
   },
   {
