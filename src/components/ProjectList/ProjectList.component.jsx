@@ -31,7 +31,7 @@ const ProjectList = () => {
       <h2 className='project-section-heading'>PROJECTS</h2>
       {
         projects.map((project, index) => {
-          return <ProjectCard project={project} layoutOrientation={index % 2 === 1 && 'alternate'} />
+          return <ProjectCard project={project} layoutOrientation={index % 2 === 1 ? 'alternate' : ''} />
         })
       }
     </section>
