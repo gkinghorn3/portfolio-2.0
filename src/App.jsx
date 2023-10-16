@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 
 
 import Navigation  from './components/Navigation/Navigation.component';
-import Header from './components/Header/Header.component';
+import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
 import ProjectList from './components/ProjectList/ProjectList.component';
 
