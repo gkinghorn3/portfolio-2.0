@@ -18,11 +18,21 @@ const projects = [
     projectDescription:
       "An e-commerce website for a UK based tool company built on the Big Commerce platform & Handlebars. My role in the project involved developing the custom theme template along with the css rules to be used across the site.",
     technologies: ["Big Commerce", "HTML", "CSS", "handlebars"],
-    projectSiteLink: "https://www.littlewhitepig.co.uk/",
+    projectSiteLink: "https://www.ndurancetools.co.uk/",
     projectCodeLink: "",
-    projectImage: "/images/lwpfeature.jpg",
+    projectImage: "/images/Ndurance-header.jpg",
     siteType: "site",
   },
+  {
+    projectTitle: "Centro Edinburgh",
+    projectDescription:
+      "A complete website re-design for a city centre family-ran Italian restaurant built using Wordpress & Elementor. The design was created in-line with the venues refurb, echoing the elegant, light & spacious ambience of the restaurant.",
+    technologies: ["Webflow", "HTML", "CSS", "Javascript"],
+    projectSiteLink: "https://centroedinburgh.co.uk/",
+    projectCodeLink: "https://github.com",
+    projectImage: "/images/centro-fullpage.jpg",
+    siteType: "site",
+  }
 ];
 
 const ProjectList = () => {

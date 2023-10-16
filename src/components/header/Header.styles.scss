@@ -30,7 +30,8 @@ $highlight-color: #64ffda;
     flex-direction: row;
     align-items: center;
     height: fit-content;
-  
+    
+
     
 
     @media (max-width: 994px) {
@@ -70,7 +71,7 @@ $highlight-color: #64ffda;
 
     p {
       margin-top: 1rem;
-      font-size: 1rem;
+      font-size: clamp(1rem, 0.7602rem + 0.9836vw, 1.6rem);;
     }
 
     .header-cta {
@@ -122,7 +123,7 @@ $highlight-color: #64ffda;
 
 
   .headshot-container {
-    min-width: 230px;
+    min-width: 280px;
     max-width: 400px;
     margin-left: 20px;
     
