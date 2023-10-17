@@ -6,11 +6,12 @@
     height: 100vh;
     text-align: left;
     padding: 2rem;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
+    
     &.open {
         transform: translateX(0);
     }
@@ -45,5 +46,4 @@
       justify-content: center;
       gap: 2rem;
     }
-
-}
+  }

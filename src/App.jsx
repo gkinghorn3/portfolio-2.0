@@ -14,7 +14,7 @@ function App() {
   return (
     <div id="page-wrap">
       <Navigation />
-      <div>
+      <div className='side-drawer'>
         <BurgerMenu open={open} setOpen={setOpen} />
         <Burger open={open} setOpen={setOpen}  />
       </div>  
