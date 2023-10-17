@@ -1,8 +1,7 @@
-
-
 import Navigation from "./components/Navigation/Navigation.component";
 import Header from "./components/Header/HeaderComponent";
-import Sidebar from "./components/Sidebar/Sidebar"
+import Burger from "./components/Burger/Burger.Component";
+import BurgerMenu from "./components/Burger/BurgerMenu.component";
 import ProjectList from "./components/ProjectList/ProjectList.component";
 import ContactForm from "./components/ContactForm/ContactForm.component";
 
@@ -10,14 +9,17 @@ import "./App.scss";
 
 function App() {
   return (
-    <div id="outer-container">
-      <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
-      <div id="page-wrap">
+    <div id="page-wrap">
+       
         <Navigation />
+        
+        <BurgerMenu />
+        <Burger />
+        
+
         <Header />
-        <ProjectList id="projects" />
+        <ProjectList />
         <ContactForm />
-      </div>
     </div>
   );
 }
