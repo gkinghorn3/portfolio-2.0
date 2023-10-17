@@ -40,7 +40,7 @@ const ProjectCard = ({
 
           {projectCodeLink && (
             <a href={projectCodeLink} target="blank">
-              <span>View Code</span>{" "}
+              <span>View Code</span>
               <img src="/images/icons/gitHubAlternate.svg" />
             </a>
           )}

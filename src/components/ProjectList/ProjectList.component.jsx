@@ -27,9 +27,9 @@ const projects = [
     projectTitle: "Centro Edinburgh",
     projectDescription:
       "A complete website re-design for a city centre family-ran Italian restaurant built using Wordpress & Elementor. The design was created in-line with the venues refurb, echoing the elegant, light & spacious ambience of the restaurant.",
-    technologies: ["Webflow", "HTML", "CSS", "Javascript"],
+    technologies: ["Wordpress", "HTML", "CSS", "Javascript"],
     projectSiteLink: "https://centroedinburgh.co.uk/",
-    projectCodeLink: "https://github.com",
+    projectCodeLink: "",
     projectImage: "/images/centro-fullpage.jpg",
     siteType: "site",
   }
