@@ -1,32 +1,25 @@
-import { Fragment } from 'react'; 
 
 
-import Navigation  from './components/Navigation/Navigation.component';
-import Header from './components/Header/HeaderComponent';
-import Sidebar from './components/Sidebar/Sidebar';
-import ProjectList from './components/ProjectList/ProjectList.component';
-import ContactForm from './components/ContactForm/ContactForm.component';
+import Navigation from "./components/Navigation/Navigation.component";
+import Header from "./components/Header/HeaderComponent";
+// import Sidebar from "./components/Sidebar/Sidebar";
+import ProjectList from "./components/ProjectList/ProjectList.component";
+import ContactForm from "./components/ContactForm/ContactForm.component";
 
-import './App.scss'
-
-
+import "./App.scss";
 
 function App() {
- 
-
-
   return (
-    <Fragment id='outer-container'>
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'}  />
-      <div id='page-wrap'>
+    <div id="outer-container">
+      <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
+      <div id="page-wrap">
         <Navigation />
-        <Header />  
-        <ProjectList id='projects' />
+        <Header />
+        <ProjectList id="projects" />
         <ContactForm />
       </div>
-
-    </Fragment>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
