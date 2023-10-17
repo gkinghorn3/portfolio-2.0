@@ -30,6 +30,7 @@ export default (props) => {
       right
       isOpen={menuOpen}
       onStateChange={(state) => handleStateChange(state)}
+      
     >
       <div className="social-links">
         <a href="https://www.linkedin.com/in/grant-kinghorn-4b817a192/" target="_blank">
