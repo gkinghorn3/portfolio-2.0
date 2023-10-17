@@ -5,12 +5,12 @@ $secondary-bg: #1B3356;
     width: 53rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 3rem;
     align-items: center;
     justify-content: space-around;
     padding: 80px 0;
     min-height: 67rem;
-    margin-top: 2rem;
+    
 
     @media (max-width: 994px){
         width: 100%;
@@ -18,7 +18,7 @@ $secondary-bg: #1B3356;
     }
 
     @media (min-width: 1366px) {
-        margin-top: 5rem;
+       
         
     }
 
