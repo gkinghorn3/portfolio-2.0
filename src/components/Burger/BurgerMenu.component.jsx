@@ -1,27 +1,46 @@
-import { bool } from 'prop-types';
+import { bool } from "prop-types";
+import { Link } from "react-scroll";
 
-import './BurgerMenu.styles.scss';
+import "./BurgerMenu.styles.scss";
 
-const BurgerMenu = ({open}) => {
-    return (
-      <div className={`burger-menu ${open && 'open'}`} >
-        <a href="/">
-          <span role="img" aria-label="about us">&#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;</span>
-          About us
+const BurgerMenu = ({ open, setOpen }) => {
+  return (
+    <div className={`burger-menu ${open === true ? "open" : ""}`}>
+      <div className="social-links">
+        <a
+          href="https://www.linkedin.com/in/grant-kinghorn-4b817a192/"
+          target="_blank"
+        >
+          <img src="/images/icons/linkedIn.svg" />
         </a>
-        <a href="/">
-          <span role="img" aria-label="price">&#x1f4b8;</span>
-          Pricing
-          </a>
-        <a href="/">
-          <span role="img" aria-label="contact">&#x1f4e9;</span>
-          Contact
-          </a>
+        <a href="https://github.com/gkinghorn3" target="_blank">
+          <img src="/images/icons/gitHub.svg" />
+        </a>
       </div>
-    )
-  }
+      <Link
+        className="menu-item"
+        to="projects"
+        smooth={true}
+        duration={500}
+        onClick={() => setOpen(false)}
+      >
+        Projects
+      </Link>
+      <Link
+        className="menu-item"
+        to="contact-form"
+        smooth={true}
+        duration={500}
+        onClick={() => setOpen(false )}
+      >
+        Contact
+      </Link>
+     
+    </div>
+  );
+};
 
-  Menu.propTypes = {
-    open: bool.isRequired,
-  }
-  export default BurgerMenu;
+BurgerMenu.propTypes = {
+  open: bool.isRequired,
+};
+export default BurgerMenu;
