@@ -5,24 +5,24 @@ $highlight-color: #64ffda;
   flex-direction: column;
   align-items: center;
   
-  margin-top: 5rem;
+  margin-top: clamp(1rem, -2.5963rem + 14.7541vw, 10rem);
   max-width: 80%;
   height: 100vh;
   
 
   @media (max-width: 500px) {
-    margin-top: 20px;
+    
     max-width: 100%;
   }
 
-  @media (max-width: 994px) {
-    margin-top: 2rem;
-    height: 45rem;
+  @media (min-width: 994px) {
+    
+    height: 40rem;
   }
  
   @media (min-width: 1366px) {
-    width: 55%;
-    margin-top: 12rem;
+    
+    
 } 
 
   .header-content {
@@ -37,13 +37,13 @@ $highlight-color: #64ffda;
 
     @media (max-width: 994px) {
       flex-direction: column-reverse;
-      
+      margin-top: 5rem;
       justify-content: start;
       align-items: center;
     }
 
     @media (min-width: 1366px) {
-      margin-top: 5rem;
+      
     }
   }
 
