@@ -2,7 +2,7 @@
 
 import Navigation from "./components/Navigation/Navigation.component";
 import Header from "./components/Header/HeaderComponent";
-// import Sidebar from "./components/Sidebar/Sidebar";
+import Sidebar from "./components/Sidebar/Sidebar"
 import ProjectList from "./components/ProjectList/ProjectList.component";
 import ContactForm from "./components/ContactForm/ContactForm.component";
 
