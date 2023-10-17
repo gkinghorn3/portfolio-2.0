@@ -1,0 +1,139 @@
+$highlight-color: #64ffda;
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  height: 53rem;
+
+  @media (max-width: 500px) {
+    max-width: 100%;
+  }
+
+  @media (min-width: 994px) {
+    
+  }
+
+  @media (min-width: 1366px) {
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    margin-top: clamp(1rem, -2.5963rem + 14.7541vw, 10rem);
+
+    @media (max-width: 994px) {
+      flex-direction: column-reverse;
+      justify-content: start;
+      align-items: center;
+    }
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+    text-align: center;
+    h1 {
+      font-size: clamp(2rem, 1.5185rem + 1.9753vw, 3rem);
+      color: $highlight-color;
+    }
+
+    h2 {
+      font-size: clamp(1.2rem, 1.0074rem + 0.7901vw, 1.6rem);
+      margin-left: 5px;
+      color: grey;
+
+      @media (max-width: 994px) {
+        margin-top: 1rem;
+      }
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: clamp(1rem, 0.7602rem + 0.9836vw, 1.6rem);
+    }
+
+    .header-cta {
+      margin-top: 2rem;
+      position: relative;
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      &:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .header-cta {
+      margin-top: 2rem;
+      position: relative;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+
+      &:active {
+        transform: translateY(-1px);
+      }
+
+      @media (max-width: 500px) {
+        margin-top: 2rem;
+      }
+    }
+    @media (max-width: 500px) {
+      margin-top: 2rem;
+    }
+  }
+
+  .headshot-container {
+    min-width: 280px;
+    max-width: 400px;
+    margin-left: 20px;
+
+    @media (max-width: 994px) {
+      max-width: 240px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .header-scroll-icon {
+    margin-top: 5rem;
+    width: 3rem;
+
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
