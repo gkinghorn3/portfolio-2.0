@@ -1,7 +1,7 @@
 .burger-icon {
     position: absolute;
-  top: 5%;
-  left: 2rem;
+  top: 2rem;
+  right: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -12,6 +12,10 @@
   cursor: pointer;
   padding: 0;
   z-index: 10;
+
+  @media (min-width: 700px) {
+    display: none;
+  }
   
   &:focus {
     outline: none;

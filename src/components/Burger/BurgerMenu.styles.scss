@@ -8,9 +8,13 @@
     padding: 2rem;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     transition: transform 0.3s ease-in-out;
-    // transform: translateX(-100%);
+    transform: translateX(100%);
+    &.open {
+        transform: translateX(0);
+    }
+    
     
     // @media (max-width: 700px) {
     //   width: 100%;
