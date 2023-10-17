@@ -15,7 +15,7 @@ function App() {
     <div id="page-wrap">
       <Navigation />
       <div>
-        <BurgerMenu  />
+        <BurgerMenu open={open} />
         <Burger open={open} setOpen={setOpen}  />
       </div>  
  

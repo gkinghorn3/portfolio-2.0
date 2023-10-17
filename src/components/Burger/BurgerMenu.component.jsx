@@ -2,9 +2,9 @@ import { bool } from 'prop-types';
 
 import './BurgerMenu.styles.scss';
 
-const BurgerMenu = () => {
+const BurgerMenu = ({open}) => {
     return (
-      <div className='burger-menu' >
+      <div className={`burger-menu ${open && 'open'}`} >
         <a href="/">
           <span role="img" aria-label="about us">&#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;</span>
           About us
@@ -21,7 +21,7 @@ const BurgerMenu = () => {
     )
   }
 
-//   Menu.propTypes = {
-//     open: bool.isRequired,
-//   }
+  Menu.propTypes = {
+    open: bool.isRequired,
+  }
   export default BurgerMenu;
