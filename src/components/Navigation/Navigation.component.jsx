@@ -10,10 +10,10 @@ const Navigation = () => {
         <img src="/images/GKD..png" />
       </div>
       <div className="nav-links-container">
-        <Link to="about" smooth={true} duration={1000} className="nav-link">
+        <Link to="projects" smooth={true} duration={1000} className="nav-link">
           Projects
         </Link>
-        <Link to="about" smooth={true} duration={1000} className="nav-link">
+        <Link to="contact-form" smooth={true} duration={1000} className="nav-link">
           Contact
         </Link>
         <a href="https://www.linkedin.com/in/grant-kinghorn-4b817a192/" target="_blank">

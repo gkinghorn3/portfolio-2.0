@@ -37,7 +37,7 @@ const projects = [
 
 const ProjectList = () => {
   return (
-    <section class='project-list-container'>
+    <section class='project-list-container' id='projects'>
       <h2 className='project-section-heading'>PROJECTS</h2>
       {
         projects.map((project, index) => {

@@ -16,7 +16,7 @@ const ContactForm = () => {
 
   return (
     <Fragment>
-      <div className="form-container">
+      <div className="form-container" id='contact-form'>
         <form onSubmit={handleSubmit}>
           <div className="form-title">
             <h2>CONTACT</h2>

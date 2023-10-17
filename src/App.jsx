@@ -21,7 +21,7 @@ function App() {
       <div id='page-wrap'>
         <Navigation />
         <Header />  
-        <ProjectList />
+        <ProjectList id='projects' />
         <ContactForm />
       </div>
 
