@@ -14,7 +14,6 @@ import "./App.scss";
 
 const CARDS = 10;
 
-
 function App() {
   const [open, setOpen] = useState(false);
   return (
@@ -26,12 +25,15 @@ function App() {
       </div>
 
       <Header />
-      <Carousel>
-        <Card title="Card 1" content="This is card 1" />
-        <Card title="Card 2" content="This is card 2" />
-        <Card title="Card 3" content="This is card 3" />
-        <Card title="Card 4" content="This is card 4" />
-      </Carousel>
+      
+        <Carousel>
+          <Card title="Card 1" content="This is card 1" />
+          <Card title="Card 2" content="This is card 2" />
+          <Card title="Card 3" content="This is card 3" />
+          <Card title="Card 4" content="This is card 4" />
+        </Carousel>
+      
+
       <ProjectList />
       <ContactForm />
     </div>

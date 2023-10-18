@@ -1,19 +1,10 @@
+
+
 $color-purple: #8B5CF6;
 $color-pink: #EC4899;
 $color-gray: #9CA3AF;
 $color-black: #1F2937;
 $card-size: 23rem;
-
-// body {
-//   width: 100vw;
-//   height: 100vh;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   overflow: hidden;
-//   background-image: linear-gradient(45deg, $color-purple, $color-pink);
-//   font-family: 'Montserrat', sans-serif;
-// }
 
 * {
   box-sizing: border-box;
@@ -21,6 +12,7 @@ $card-size: 23rem;
 
 .carousel {
   position: relative;
+  overflow-x: hidden;
   width: $card-size;
   height: $card-size;
   perspective: 500px;
@@ -49,41 +41,49 @@ $card-size: 23rem;
   color: $color-gray;
   text-align: justify;
   transition: all 0.3s ease-out;
+
   
-  h2 {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0 0 0.7em;
-    color: $color-black;
-  }
+    h2 {
+      text-align: center;
+      font-size: calc(1.5rem + ((100vw - 320px) / (1024 - 320)) * (2.5 - 1.5));
+      font-weight: bold;
+      margin: calc(0.5em + ((100vw - 320px) / (1024 - 320)) * (1 - .5)) calc(0 + ((100vw - 320px) / (1024 - 320)) * (1 - .5)) calc(0.7em + ((100vw - 320px) / (1024 - 320)) * (1 - .7));
+      color: $color-black;
+    }
   
-  p, h2 {
-    transition: all 0.3s ease-out;
-    opacity: var(--active);
-  }
+    p, h2 {
+      transition: all .3s ease-out;
+      opacity: var(--active);
+      font-size: calc(1rem + ((100vw - 320px) / (1024 - 320)) * (1.25 - .75));
+      margin-bottom: calc(.7em + ((100vw - 320px) / (1024 - 320)) * (.5 - .7));
+    }
+  
 }
 
 .nav {
-  color: white;
-  font-size: 5rem;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 50%;
-  z-index: 2;
-  cursor: pointer;
-  user-select: none;
-  background: unset;
-  border: unset;
+    color:white;
+    font-size:min(10vw,5rem);
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    top:min(50%,10vh);
+    z-index:2;
+    cursor:pointer;
+    user-select:none;
+    background:none!important;
+    border:none!important;
+
   
-  &.left {
-    transform: translateX(-100%) translatey(-50%);
-  }
+    &.left {
+        transform:
+            translateX(-100%) translateY(-50%);
+        left:min(10%,10vw);
+        }
   
-  &.right {
-    right: 0;
-    transform: translateX(100%) translatey(-50%);
-  }
+    &.right {
+        right:min(10%,10vw);
+        transform:
+            translateX(100%) translateY(-50%);
+        }
 }
