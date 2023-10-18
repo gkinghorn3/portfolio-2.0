@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="headshot-container">
           <img
-            src="/images/profile-pic.png"
+            src="/images/profile-pic1.png"
             alt="Grant Kinghorn"
             className="header-image"
           />
