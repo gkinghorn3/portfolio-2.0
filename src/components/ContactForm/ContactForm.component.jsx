@@ -16,29 +16,43 @@ const ContactForm = () => {
 
   return (
     <Fragment>
-      <div className="form-container" id='contact-form'>
+      <div className="form-container" id="contact-form">
         <form onSubmit={handleSubmit}>
           <div className="form-title">
             <h2>CONTACT</h2>
           </div>
 
           <div className="form-input-container">
-            <input type="text" name="name" id="name" placeholder="Name" />
-            <input type="email" name="email" id="email" placeholder="Email" />
+            <div className="input-div ">
+              <input type="text" name="name" id="name" />
+              <label>Name</label>
+            </div>
+            <div className="input-div email">
+              <input type="email" name="email" id="email" />
+              <label>Email</label>
+            </div>
+
             <ValidationError
               prefix="Email"
               field="email"
               errors={state.errors}
             />
           </div>
-          <textarea id="message" name="message" />
+          <textarea id="message" name="message" placeholder="Enter your query here..." />
           <ValidationError
             prefix="Message"
             field="message"
+            
             errors={state.errors}
           />
           <div className="btn-container">
-            <BaseBtn btnText="SEND" className={BaseBtn} type="submit" disabled={state.submitting} />
+            <button className="submit-btn" type="submit">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Submit
+            </button>
           </div>
         </form>
       </div>
