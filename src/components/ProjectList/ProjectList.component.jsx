@@ -13,15 +13,7 @@ const projects = [
     projectImage: "/images/LWPfullcapture.jpg",
     siteType: "site",
   },
-  {
-    projectTitle: "N-Durance Tools",
-    projectDescription:
-      "Custom theme development for a UK based tool company built on the Big Commerce platform.",
-    projectSiteLink: "https://www.ndurancetools.co.uk/",
-    projectCodeLink: "",
-    projectImage: "/images/Ndurancecapture.jpg",
-    siteType: "site",
-  },
+  
   {
     projectTitle: "Centro Edinburgh",
     projectDescription:
@@ -31,7 +23,20 @@ const projects = [
     projectCodeLink: "",
     projectImage: "/images/centro-fullpage.jpg",
     siteType: "site",
-  }
+  }, 
+
+  {
+    projectTitle: "N-Durance Tools",
+    projectDescription:
+      "Custom theme development for a UK based tool company built on the Big Commerce platform.",
+    technologies: ["Big Commerce", "HTML", "CSS"],
+    projectSiteLink: "https://centroedinburgh.co.uk/",
+    projectCodeLink: "",
+    projectImage: "/images/Ndurancecapture.jpg",
+    siteType: "site",
+  }, 
+
+
 ];
 
 const ProjectList = () => {
