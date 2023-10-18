@@ -1,6 +1,6 @@
 
-import React, { useState } from "react";
-import { TiChevronLeftOutline, TiChevronRightOutline } from 'react-icons/ti';
+import React, { useState, Fragment } from "react";
+import { TiChevronLeft, TiChevronRight } from 'react-icons/ti';
 
 import './Carousel.styles.scss';
 
@@ -29,20 +29,26 @@ const Carousel = ({ children }) => {
   };
 
   return (
-    <div
+   
+       
+        <div
       className="carousel"
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
+
+        
       {active > 0 && (
         <button
           className="nav left"
           onClick={() => setActive((i) => i - 1)}
         >
-          <TiChevronLeftOutline />
+          <TiChevronLeft />
         </button>
       )}
       {React.Children.map(children, (child, i) => (
+
+
         <div
           className="card-container"
           style={{
@@ -65,10 +71,12 @@ const Carousel = ({ children }) => {
           className="nav right"
           onClick={() => setActive((i) => i + 1)}
         >
-          <TiChevronRightOutline />
+          <TiChevronRight />
         </button>
       )}
     </div>
+  
+    
   );
 };
 
