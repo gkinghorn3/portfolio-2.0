@@ -26,7 +26,7 @@ const Header = () => {
         </div>
       </div>
       
-        {/* <img src="/images/icons/down_icon.svg" className="header-scroll-icon bounce" /> */}
+        <img src="/images/icons/down_icon.svg" className="header-scroll-icon bounce" />
       
       
     </section>
