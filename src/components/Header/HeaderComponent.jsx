@@ -1,5 +1,3 @@
-
-
 import "./Header.styles.scss";
 
 const Header = () => {
@@ -7,14 +5,17 @@ const Header = () => {
     <section className="header-container">
       <div className="header-content">
         <div className="text-content">
-          <h2>Full Stack Web Developer</h2>
+          <h2>Web Developer & Digital Marketer</h2>
           <h1>GRANT KINGHORN</h1>
           <p>
-            Hi! I’m an Edinburgh based web developer that specialises 
-            developing exceptional digital experiences. My go-to tech stack includes: JavaScript, React,
-            Node/Express, MongoDB and Redux. Alongside my preffered tools, I
-            often work with WordPress, Webflow, Big Commerce, and Shopify.
-            
+            Hi! I'm a front-end developer based in Edinburgh that specialises
+            creating user experiences that leave a lasting impression. My go-to
+            tech stack includes: JavaScript, React, Node/Express, and Redux.
+            Alongside my preferred tools, I often work with WordPress, Webflow,
+            Big Commerce, and Shopify. Alongside web development, I offer a
+            variety of digital marketing services including: on-page SEO, local
+            SEO audits/ GMB management and PPC campaign optimisation/ management
+            across Meta, Google & Bing.
           </p>
         </div>
         <div className="headshot-container">
@@ -25,10 +26,11 @@ const Header = () => {
           />
         </div>
       </div>
-      
-        <img src="/images/icons/down_icon.svg" className="header-scroll-icon bounce" />
-      
-      
+
+      <img
+        src="/images/icons/down_icon.svg"
+        className="header-scroll-icon bounce"
+      />
     </section>
   );
 };

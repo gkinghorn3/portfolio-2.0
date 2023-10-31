@@ -9,7 +9,7 @@ import ContactForm from "./components/ContactForm/ContactForm.component";
 
 import "./App.scss";
 
-const CARDS = 10;
+
 
 function App() {
   const [open, setOpen] = useState(false);
