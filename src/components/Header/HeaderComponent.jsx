@@ -12,7 +12,7 @@ const Header = () => {
             creating user experiences that leave a lasting impression. My go-to
             tech stack includes: JavaScript, React, Node/Express, and Redux.
             Alongside my preferred tools, I often work with WordPress, Webflow,
-            Big Commerce, and Shopify. Alongside web development, I offer a
+            Big Commerce, and Shopify. I also offer a
             variety of digital marketing services including: on-page SEO, local
             SEO audits/ GMB management and PPC campaign optimisation/ management
             across Meta, Google & Bing.
