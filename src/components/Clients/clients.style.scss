@@ -1,9 +1,22 @@
- .client-container {
-    background: #101828;
-    width: 100vw;
-    min-height: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 0;
- }
+//  .client-container {
+//     background: #101828;
+//     width: 100vw;
+//     height: fit-content;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 2rem 0;
+
+//    //  .slide-item-container {
+//    //    width: 100px;
+//    //    background-color: red;
+//    //  }
+
+//  }
+
+
+.slide {
+   height: 200px;
+   aspect-ratio: 1;
+   background-color: red;
+}
