@@ -9,10 +9,16 @@ const Header = () => {
           <h1>GRANT KINGHORN</h1>
           <p>
             Hi! I'm a front-end developer based in Edinburgh that specialises
-            creating user experiences that leave a lasting impression. My go-to
+            creating user experiences that leave a lasting impression. 
+            <br/>
+            <br/>
+            My go-to
             tech stack includes: JavaScript, React, Node/Express, and Redux.
             Alongside my preferred tools, I often work with WordPress, Webflow,
-            Big Commerce, and Shopify. I also offer a
+            Big Commerce, and Shopify. 
+            <br/>
+            <br/>
+            I also offer a
             variety of digital marketing services including: on-page SEO, local
             SEO audits/ GMB management and PPC campaign optimisation/ management
             across Meta, Google & Bing.

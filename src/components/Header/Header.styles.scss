@@ -14,6 +14,7 @@ $highlight-color: #03e9f4;
 
 
   .header-content {
+    max-width: 62rem;;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,7 +53,7 @@ $highlight-color: #03e9f4;
 
     p {
       margin-top: 1rem;
-      font-size: clamp(1rem, 0.7602rem + 0.9836vw, 1.6rem);
+      font-size: clamp(1rem, 0.9201rem + 0.3279vw, 1.2rem);
     }
 
     .header-cta {

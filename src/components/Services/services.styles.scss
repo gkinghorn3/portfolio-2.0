@@ -1,7 +1,7 @@
 .services-container {
   max-width: 53rem;
   border-radius: 14px;
-  margin-bottom: 5rem;
+  margin: 7rem 0;
   padding: 2rem;
   background: linear-gradient(
     114deg,
@@ -29,7 +29,7 @@
     align-items: center;
 
     h3 {
-        font-weight: 900;
+        font-weight: 600;
     }
 
     @media (max-width: 638px) {
