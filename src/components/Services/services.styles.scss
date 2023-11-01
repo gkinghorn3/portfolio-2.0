@@ -1,1 +1,58 @@
+.services-container {
+  max-width: 53rem;
+  border-radius: 14px;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  background: linear-gradient(
+    114deg,
+    rgba(20, 28, 47, 0.8) 15%,
+    rgba(20, 28, 47, 0.13) 95.97%
+  );
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  text-align: center;
 
+  @media (max-width: 638px) {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .service-card {
+    flex: 0 0 50%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        font-weight: 900;
+    }
+
+    @media (max-width: 638px) {
+       max-width: 90%;
+       
+      }
+
+
+    .icon-container {
+      width: 81px;
+        display: grid;
+        place-items: center;
+      aspect-ratio: 1;
+      margin-bottom: 1rem;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background: #01040d;
+      padding: .5rem;
+
+      img {
+        width: 80%;
+      }
+
+    }
+  }
+}
