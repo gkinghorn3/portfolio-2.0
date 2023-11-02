@@ -1,10 +1,10 @@
 .scroller {
   margin: 2rem 0;
-  width: 90vw;
+  max-width: 53rem;
   overflow-x: hidden;
 
-  @media (min-width: 1200px) {
-    width: 53rem;
+  @media (max-width: 500px) {
+    max-width: 90vw;
   }
 }
 
@@ -53,7 +53,7 @@
 
 @keyframes scroll {
   to {
-    transform: translate(calc(-50% - 0.5rem));
+    transform: translate(-50%);
   }
 }
 
