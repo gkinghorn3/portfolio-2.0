@@ -25,7 +25,7 @@ const Clients = () => {
   }, []);
 
   return (
-    <div className="scroller" data-speed="slow" ref={scrollerRef}>
+    <div className="scroller" data-speed="medium" ref={scrollerRef}>
       <ul className="tag-list scroller__inner">
         <li><img src='/images/clients-logos/centro.png'/></li>
         <li><img src='/images/clients-logos/elios.png'/></li>
