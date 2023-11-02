@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+
+
 import Navigation from "./components/Navigation/Navigation.component";
 import Header from "./components/Header/HeaderComponent";
 import Burger from "./components/Burger/Burger.Component";
@@ -15,6 +17,9 @@ import "./App.scss";
 
 function App() {
   const [open, setOpen] = useState(false);
+
+
+
   return (
     <div id="page-wrap">
       <Navigation />
@@ -24,11 +29,12 @@ function App() {
       </div>
 
       <Header />
-    
-      
-      <Services />
-      <ProjectList />
       {/* <Clients /> */}
+     
+      <Services />
+      
+      <ProjectList />
+      
       <ContactForm />
       <a href='https://github.com/gkinghorn3/portfolio-2.0' style={{ textDecoration: 'none'}} target="blank"> 
         <p style={{ color: "#03e9f4", opacity: "0.6"}}>See source code on Github</p>
