@@ -1,7 +1,11 @@
 .scroller {
-  margin: 0 1rem;
-  max-width: 53rem;
+  margin: 2rem 0;
+  width: 90vw;
   overflow-x: hidden;
+
+  @media (min-width: 1200px) {
+    width: 53rem;
+  }
 }
 
 .scroller__inner {
@@ -66,6 +70,10 @@
   
   img {
     height: 50px;
+
+    @media (min-width: 768px) {
+      height: 65px;
+    }
   }
   
 }
