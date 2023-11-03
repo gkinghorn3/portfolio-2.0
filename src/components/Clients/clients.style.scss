@@ -2,6 +2,8 @@
   margin: 2rem 0;
   max-width: 53rem;
   overflow-x: hidden;
+  -webkit-transform: translate3d(0,0,0);
+  
 
   @media (max-width: 500px) {
     max-width: 90vw;
