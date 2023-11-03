@@ -16,6 +16,17 @@ const projects = [
   }, 
 
   {
+    projectTitle: "N-Durance Tools",
+    projectDescription:
+      "Custom theme development for a UK based tool company built on the Big Commerce platform.",
+    technologies: ["Big Commerce", "HTML", "CSS"],
+    projectSiteLink: "https://centroedinburgh.co.uk/",
+    projectCodeLink: "",
+    projectImage: "/images/Ndurancecapture.jpg",
+    siteType: "site",
+  }, 
+
+  {
     projectTitle: "Little White Pig",
     projectDescription:
       "A clean & responsive website for an Edinburgh based New Town bar & kitchen built on Webflow's platform.",
@@ -27,13 +38,13 @@ const projects = [
   },
 
   {
-    projectTitle: "N-Durance Tools",
+    projectTitle: "Elios",
     projectDescription:
       "Custom theme development for a UK based tool company built on the Big Commerce platform.",
     technologies: ["Big Commerce", "HTML", "CSS"],
-    projectSiteLink: "https://centroedinburgh.co.uk/",
+    projectSiteLink: "https://eliosedinburgh.com/",
     projectCodeLink: "",
-    projectImage: "/images/Ndurancecapture.jpg",
+    projectImage: "/images/elios.jpg",
     siteType: "site",
   }, 
 
