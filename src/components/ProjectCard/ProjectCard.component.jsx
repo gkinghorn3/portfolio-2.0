@@ -62,6 +62,12 @@ const ProjectCard = ({
             <span>{`View ${siteType}`}</span>{" "}
             <img src="/images/icons/openLink.svg" />
           </a>
+          {projectCodeLink && (
+            <a href={projectCodeLink} target="blank">
+              <span>View Code</span>
+              <img src="/images/icons/gitHubAlternate.svg" />
+            </a>
+          )}
         </div>
       </div>
 
