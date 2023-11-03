@@ -1,0 +1,73 @@
+$secondary-bg: #101828;
+$highlight-color: #03e9f4;
+$tech-tag-color: #2a4977;
+
+.project-card {
+  max-width: 23rem;
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+
+  .project-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+  }
+
+  .project-info {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: fit-content;
+
+    .technologies-container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+
+      span {
+        background: $tech-tag-color;
+        padding: 3px 8px;
+      }
+    }
+
+    .project-links {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+
+      a {
+        text-decoration: none;
+        display: inline-flex;
+        margin-left: 10px;
+
+        img {
+          margin-left: 5px;
+        }
+      }
+
+      span {
+        text-decoration: none;
+        color: $highlight-color;
+        white-space: nowrap;
+        width: fit-content;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+
+    &:hover {
+      transform: translateY(-90%);
+      transition: transform 10s ease-in-out;
+    }
+  }
+}
+

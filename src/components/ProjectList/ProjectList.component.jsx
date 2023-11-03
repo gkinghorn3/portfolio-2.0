@@ -3,17 +3,7 @@ import ProjectCard from "../ProjectCard/ProjectCard.component";
 import "./ProjectList.styles.scss";
 
 const projects = [
-  {
-    projectTitle: "Little White Pig",
-    projectDescription:
-      "A clean & responsive website for an Edinburgh based New Town bar & kitchen built on Webflow's platform.",
-    technologies: ["Webflow", "HTML", "CSS", "Javascript"],
-    projectSiteLink: "https://www.littlewhitepig.co.uk/",
-    projectCodeLink: "",
-    projectImage: "/images/LWPfullcapture.jpg",
-    siteType: "site",
-  },
-  
+
   {
     projectTitle: "Centro Edinburgh",
     projectDescription:
@@ -24,6 +14,17 @@ const projects = [
     projectImage: "/images/centro-fullpage.jpg",
     siteType: "site",
   }, 
+
+  {
+    projectTitle: "Little White Pig",
+    projectDescription:
+      "A clean & responsive website for an Edinburgh based New Town bar & kitchen built on Webflow's platform.",
+    technologies: ["Webflow", "HTML", "CSS", "Javascript"],
+    projectSiteLink: "https://www.littlewhitepig.co.uk/",
+    projectCodeLink: "",
+    projectImage: "/images/LWPfullcapture.jpg",
+    siteType: "site",
+  },
 
   {
     projectTitle: "N-Durance Tools",

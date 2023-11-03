@@ -3,12 +3,9 @@
   border-radius: 14px;
   margin: 7rem 0;
   padding: 2rem;
-  background: linear-gradient(
-    114deg,
-    rgba(20, 28, 47, 0.8) 15%,
-    rgba(20, 28, 47, 0.13) 95.97%
-  );
-  backdrop-filter: blur(2px);
+
+  background: rgb(20, 28, 47);
+ 
   border: 1px solid rgba( 255, 255, 255, 0.028 );
   display: flex;
   flex-wrap: wrap;
@@ -47,7 +44,7 @@
       margin-bottom: 1rem;
       flex-shrink: 0;
       border-radius: 4px;
-      background: #01040d;
+      
       padding: .5rem;
 
       img {

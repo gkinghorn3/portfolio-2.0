@@ -1,4 +1,4 @@
-import "./ProjectCard.styles.scss";
+import "./ProjectCard.stylesv2.scss";
 
 const ProjectCard = ({
   project: {
@@ -13,18 +13,43 @@ const ProjectCard = ({
   layoutOrientation,
 }) => {
   return (
-    <article className={`project-container ${layoutOrientation}`}>
-        <div className='project-image-container'>
-            <img className="project-image"
-            src={projectImage}
-            alt="Picture of heading area of project website"
-            />
-        </div>
-       
-      
-      <div className="content-wrapper">
-        <h3>{projectTitle}</h3>
-        <p>{projectDescription}</p>
+    // <article className={`project-container ${layoutOrientation}`}>
+    //     <div className='project-image-container'>
+    //         <img className="project-image"
+    //         src={projectImage}
+    //         alt="Picture of heading area of project website"
+    //         />
+    //     </div>
+
+    //   <div className="content-wrapper">
+    //     <h3>{projectTitle}</h3>
+    //     <p>{projectDescription}</p>
+    //     <div className="technologies-container">
+    //       {technologies.map((technology) => (
+    //         <span className="technology-tag" key={projectTitle}>
+    //           {technology}
+    //         </span>
+    //       ))}
+    //     </div>
+    //     <div className="project-links">
+    //       <a href={projectSiteLink} target="blank">
+    //         <span>{`View ${siteType}`}</span>{" "}
+    //         <img src="/images/icons/openLink.svg" />
+    //       </a>
+
+    //       {projectCodeLink && (
+    //         <a href={projectCodeLink} target="blank">
+    //           <span>View Code</span>
+    //           <img src="/images/icons/gitHubAlternate.svg" />
+    //         </a>
+    //       )}
+    //     </div>
+    //   </div>
+    // </article>
+
+    <article className="project-card">
+      <div className="project-card-overlay"></div>
+      <div className="project-info">
         <div className="technologies-container">
           {technologies.map((technology) => (
             <span className="technology-tag" key={projectTitle}>
@@ -37,15 +62,11 @@ const ProjectCard = ({
             <span>{`View ${siteType}`}</span>{" "}
             <img src="/images/icons/openLink.svg" />
           </a>
-
-          {projectCodeLink && (
-            <a href={projectCodeLink} target="blank">
-              <span>View Code</span>
-              <img src="/images/icons/gitHubAlternate.svg" />
-            </a>
-          )}
         </div>
       </div>
+
+      <div></div>
+      <img src={projectImage} />
     </article>
   );
 };
