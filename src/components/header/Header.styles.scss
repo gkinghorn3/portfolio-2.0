@@ -20,7 +20,7 @@ $highlight-color: #03e9f4;
     flex-direction: row;
     align-items: center;
     height: fit-content;
-    margin-top: clamp(1rem, -2.5963rem + 14.7541vw, 10rem);
+    // margin-top: clamp(1rem, -2.5963rem + 14.7541vw, 10rem);
 
     @media (max-width: 994px) {
       flex-direction: column-reverse;

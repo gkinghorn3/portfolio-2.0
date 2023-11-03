@@ -1,12 +1,12 @@
 .scroller {
-  margin: 2rem 0;
+  margin: 3rem 0;
   max-width: 90vw;
   overflow:hidden;
   -webkit-transform: translate3d(0,0,0);
   
 
-  @media (max-width: 768px) {
-    
+  @media (min-width: 768px) {
+    max-width: 53rem;
   }
 }
 
