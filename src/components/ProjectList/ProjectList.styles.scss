@@ -19,7 +19,8 @@ $secondary-bg: #1B3356;
 
     @media (min-width: 1366px) {
        
-        
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
 
