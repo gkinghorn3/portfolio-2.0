@@ -23,17 +23,26 @@
 
 body {
   
-  background-color: #01040D;
-  // background-image: url('/backgrounds/bg-new.jpg');
+  // background-color: #01040D;
+  background-image: url('/backgrounds/bg-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   margin: 0;
   padding: 0 20px;
-
   min-width: 320px;
-
   min-height: 100vh;
+
+  @media (min-width: 768px) {
+    background-image: url('/backgrounds/bg-tablet.jpg');
+ 
+  }
+
+  @media (min-width: 1200px) {
+    background-image: url('/backgrounds/bg-desktop.jpg');
+    background-position: center center;
+ 
+  }
 
 }
 
