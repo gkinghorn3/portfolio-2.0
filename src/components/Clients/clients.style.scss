@@ -98,13 +98,13 @@
   padding-block: 1rem;
   display: flex;
   flex-wrap: wrap;
-  -webkit-gap: 1rem; /* added vendor prefix */
+  -webkit-gap: 1rem; 
   gap: 1rem;
 }
 
 .scroller[data-animated="true"] {
   overflow: hidden;
-  -webkit-mask-image: linear-gradient( /* changed property name */
+  -webkit-mask-image: linear-gradient( 
     90deg,
     transparent,
     white 20%,
