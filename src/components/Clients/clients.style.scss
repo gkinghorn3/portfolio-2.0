@@ -1,12 +1,95 @@
-.scroller {
-  margin: 3rem 0;
-  max-width: 90vw;
-  overflow:hidden;
-  -webkit-transform: translate3d(0,0,0);
+// .scroller {
+//   margin: 3rem 0;
+//   max-width: 90vw;
+//   overflow:hidden;
+//   -webkit-transform: translate3d(0,0,0);
   
 
-  @media (min-width: 768px) {
-    max-width: 53rem;
+//   @media (min-width: 768px) {
+//     max-width: 53rem;
+//   }
+// }
+
+// .scroller__inner {
+ 
+//   padding-block: 1rem;
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 1rem;
+// }
+
+// .scroller[data-animated="true"] {
+//   overflow: hidden;
+//   -webkit-mask: linear-gradient(
+//     90deg,
+//     transparent,
+//     white 20%,
+//     white 80%,
+//     transparent
+//   );
+//   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+// }
+
+// .scroller[data-animated="true"] .scroller__inner {
+//   width: max-content;
+//   flex-wrap: nowrap;
+//   animation: scroll var(--_animation-duration, 40s)
+//     var(--_animation-direction, forwards) linear infinite;
+// }
+
+// .scroller[data-direction="right"] {
+//   --_animation-direction: reverse;
+// }
+
+// .scroller[data-direction="left"] {
+//   --_animation-direction: forwards;
+// }
+
+// .scroller[data-speed="fast"] {
+//   --_animation-duration: 20s;
+// }
+
+// .scroller[data-speed="slow"] {
+//   --_animation-duration: 60s;
+// }
+
+// @keyframes scroll {
+//   to {
+//     transform: translate(-50%);
+//   }
+// }
+
+
+
+// .tag-list {
+//   margin: 0;
+//   padding-inline: 0;
+//   list-style: none;
+// }
+
+// .tag-list li {
+//   padding: 1rem;
+  
+//   img {
+//     height: 50px;
+
+//     @media (min-width: 768px) {
+//       height: 65px;
+//     }
+//   }
+  
+// }
+
+
+
+.scroller {
+  margin: 2rem 0;
+  max-width: 53rem;
+  overflow-x: hidden;
+  -webkit-transform: translate3d(0,0,0);
+
+  @media (max-width: 768px) {
+    max-width: 90vw;
   }
 }
 
@@ -15,12 +98,13 @@
   padding-block: 1rem;
   display: flex;
   flex-wrap: wrap;
+  -webkit-gap: 1rem; /* added vendor prefix */
   gap: 1rem;
 }
 
 .scroller[data-animated="true"] {
   overflow: hidden;
-  -webkit-mask: linear-gradient(
+  -webkit-mask-image: linear-gradient( /* changed property name */
     90deg,
     transparent,
     white 20%,
@@ -79,6 +163,3 @@
   }
   
 }
-
-
-
