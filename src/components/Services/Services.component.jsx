@@ -10,7 +10,7 @@ const Services = () => {
                 </div>
                  
                 <h3>Web Development</h3>
-                <p>Custom development using modern frameworks, with responsiveness, accessibility, and and an intuitive user experiences in mind.</p>
+                <p>Custom development using modern frameworks, with responsiveness, accessibility, and an intuitive user experiences in mind.</p>
             </article>
             <article className='service-card'>
                 <div className='icon-container'>
