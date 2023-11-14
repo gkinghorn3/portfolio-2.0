@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <div className="headshot-container">
           <img
-            src="/images/profile-pic1.png"
+            src="/images/profile-pic1.webp"
             alt="Grant Kinghorn"
             className="header-image"
           />
