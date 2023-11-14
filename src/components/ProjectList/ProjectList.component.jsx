@@ -8,7 +8,7 @@ const projects = [
     projectTitle: "Centro Edinburgh",
     projectDescription:
       "A complete website re-design for a city centre family-ran Italian restaurant built using Wordpress & Elementor.",
-    technologies: ["Wordpress", "HTML", "CSS", "Javascript"],
+    technologies: ["Wordpress", "Vanilla CSS"],
     projectSiteLink: "https://centroedinburgh.co.uk/",
     projectCodeLink: "",
     projectImage: "/images/centro-fullpage.jpg",
@@ -19,7 +19,7 @@ const projects = [
     projectTitle: "N-Durance Tools",
     projectDescription:
       "Custom theme development for a UK based tool company built on the Big Commerce platform.",
-    technologies: ["Big Commerce", "HTML", "CSS"],
+    technologies: ["Big Commerce", "Handlebars", "SCSS"],
     projectSiteLink: "https://centroedinburgh.co.uk/",
     projectCodeLink: "",
     projectImage: "/images/Ndurancecapture.jpg",
