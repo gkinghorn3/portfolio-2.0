@@ -140,13 +140,14 @@
   }
 }
 
-@media not all and (min-resolution:.001dpcm) { 
+@supports (-webkit-appearance:none) {
   @keyframes scroll {
     to {
       transform: translate(-100%);
     }
   }
 }
+
 
 .tag-list {
   margin: 0;
@@ -165,4 +166,6 @@
     }
   }
 }
+
+
 

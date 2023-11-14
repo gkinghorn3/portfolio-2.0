@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+
 import './clients.style.scss'; 
 
 const Clients = () => {
@@ -25,7 +26,7 @@ const Clients = () => {
   }, []);
 
   return (
-    <div className="scroller" data-speed="fast" ref={scrollerRef}>
+    <div className="scroller" data-speed="slow" ref={scrollerRef}>
       <ul className="tag-list scroller__inner">
         <li><img src='/images/clients-logos/centro.png'/></li>
         <li><img src='/images/clients-logos/elios.png'/></li>
@@ -41,3 +42,4 @@ const Clients = () => {
 };
 
 export default Clients;
+
