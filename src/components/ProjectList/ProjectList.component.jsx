@@ -30,7 +30,7 @@ const projects = [
     projectTitle: "Little White Pig",
     projectDescription:
       "A clean & responsive website for an Edinburgh based New Town bar & kitchen built on Webflow's platform.",
-    technologies: ["Webflow", "HTML", "CSS", "Javascript"],
+    technologies: ["Webflow", "Vanilla CSS"],
     projectSiteLink: "https://www.littlewhitepig.co.uk/",
     projectCodeLink: "",
     projectImage: "/images/LWPfullcapture.jpg",
@@ -41,10 +41,10 @@ const projects = [
     projectTitle: "Elios",
     projectDescription:
       "Custom theme development for a UK based tool company built on the Big Commerce platform.",
-    technologies: ["Big Commerce", "HTML", "CSS"],
+    technologies: ["React","SCSS"],
     projectSiteLink: "https://eliosedinburgh.com/",
     projectCodeLink: "",
-    projectImage: "/images/elios.jpg",
+    projectImage: "/images/elios2.0.png",
     siteType: "site",
   }, 
 

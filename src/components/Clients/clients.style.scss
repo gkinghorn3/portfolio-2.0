@@ -98,18 +98,16 @@
 
 .scroller[data-animated="true"] {
   overflow: hidden;
-  -webkit-mask-image: linear-gradient(
-    90deg,
-    transparent,
-    white 20%,
-    white 80%,
-    transparent
-  );
-  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 
-  @media (max-width: 768px) {
-    mask: none;
-    
+  @supports (-webkit-mask-image: none) or (mask-image: none) {
+    -webkit-mask: linear-gradient(
+      90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   }
 }
 
@@ -142,6 +140,14 @@
   }
 }
 
+@media not all and (min-resolution:.001dpcm) { 
+  @keyframes scroll {
+    to {
+      transform: translate(-100%);
+    }
+  }
+}
+
 .tag-list {
   margin: 0;
   padding-inline: 0;
@@ -159,3 +165,4 @@
     }
   }
 }
+
