@@ -1,10 +1,9 @@
 import React, { useEffect, useRef, Component } from 'react';
-import Slider from "react-slick";
+import Marquee from "react-fast-marquee";
 
 import './clients.style.scss'; 
 
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+
 
 // const Clients = () => {
 //   const scrollerRef = useRef(null);
@@ -47,42 +46,18 @@ import "slick-carousel/slick/slick-theme.css";
 
 // export default Clients;
 
-export default class AutoPlay extends Component {
-  render() {
-    const settings = {
-      dots: false,
-      infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
-      cssEase: "linear", 
-      
-    };
-    return (
-      <div>
-        <Slider {...settings}>
-          <div className='slick-slider-slide'>
-            <img src='/images/clients-logos/centro.png'/>
-          </div>
-          <div className='slick-slider-slide'>
-            <img src='/images/clients-logos/elios.png'/>
-          </div>
-          <div className='slick-slider-slide'>
-            <img src='/images/clients-logos/FCN.png'/>
-          </div>
-          <div className='slick-slider-slide'>
-            <img src='/images/clients-logos/lwp.png'/>
-          </div>
-          <div className='slick-slider-slide'>
-            <img src='/images/clients-logos/mv.png'/>
-          </div>
-          <div className='slick-slider-slide'>
-            <h3>6</h3>
-          </div>
-        </Slider>
-      </div>
-    );
-  }
+export default function Clients() {
+  return (
+    <div className="clients-container">
+      <Marquee speed={50}>
+        <img src='/images/clients-logos/centro.png'/>
+        <img src='/images/clients-logos/elios.png'/>
+        <img src='/images/clients-logos/FCN.png'/>
+        <img src='/images/clients-logos/lwp.png'/>
+        <img src='/images/clients-logos/mv.png'/>
+        <img src='/images/clients-logos/ndurance.png'/>
+        <img src='/images/clients-logos/toolden.png'/>
+      </Marquee>
+    </div>
+  );
 }
