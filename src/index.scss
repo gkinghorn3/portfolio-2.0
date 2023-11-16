@@ -51,7 +51,8 @@ body {
 
 .slick-container {
   position: relative;
-  width: clamp(23rem, 11.0123rem + 49.1803vw, 53rem);;
+  width: clamp(23rem, 11.0123rem + 49.1803vw, 53rem);
+  margin-top: 2rem;
   height: fit-content;
 
   .grad-left {
