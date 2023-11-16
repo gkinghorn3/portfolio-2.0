@@ -57,27 +57,28 @@ export default class AutoPlay extends Component {
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
-      cssEase: "linear"
+      cssEase: "linear", 
+      
     };
     return (
       <div>
         <Slider {...settings}>
-          <div className='slick-slider'>
+          <div className='slick-slider-slide'>
             <img src='/images/clients-logos/centro.png'/>
           </div>
-          <div className='slick-slider'>
+          <div className='slick-slider-slide'>
             <img src='/images/clients-logos/elios.png'/>
           </div>
-          <div className='slick-slider'>
+          <div className='slick-slider-slide'>
             <img src='/images/clients-logos/FCN.png'/>
           </div>
-          <div className='slick-slider'>
+          <div className='slick-slider-slide'>
             <img src='/images/clients-logos/lwp.png'/>
           </div>
-          <div className='slick-slider'>
+          <div className='slick-slider-slide'>
             <img src='/images/clients-logos/mv.png'/>
           </div>
-          <div className='slick-slider'>
+          <div className='slick-slider-slide'>
             <h3>6</h3>
           </div>
         </Slider>
