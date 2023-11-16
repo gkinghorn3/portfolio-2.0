@@ -47,9 +47,12 @@ import './clients.style.scss';
 // export default Clients;
 
 export default function Clients() {
+
+  const bgClr = [1, 4, 13];
+
   return (
     <div className="clients-container">
-      <Marquee speed={50}>
+      <Marquee speed={50}  >
         <img src='/images/clients-logos/centro.png'/>
         <img src='/images/clients-logos/elios.png'/>
         <img src='/images/clients-logos/FCN.png'/>
