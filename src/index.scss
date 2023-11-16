@@ -49,3 +49,9 @@ body {
 
 }
 
+.slick-container {
+
+  width: clamp(23rem, 11.0123rem + 49.1803vw, 53rem);;
+  height: fit-content;
+
+}
