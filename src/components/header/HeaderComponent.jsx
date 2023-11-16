@@ -17,6 +17,7 @@ const Header = () => {
             Alongside my preferred tools, I often work with WordPress, Webflow,
             Big Commerce, and Shopify. 
             <br/>
+          </p>
         </div>
         <div className="headshot-container">
           <img
