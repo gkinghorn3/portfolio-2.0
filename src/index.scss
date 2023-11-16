@@ -50,8 +50,26 @@ body {
 }
 
 .slick-container {
-
+  position: relative;
   width: clamp(23rem, 11.0123rem + 49.1803vw, 53rem);;
   height: fit-content;
+
+  .grad-left {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(1, 4, 13));
+  }
+
+  .grad-right {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    height: 100%;
+    width: 100px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(1, 4, 13));
+  }
 
 }

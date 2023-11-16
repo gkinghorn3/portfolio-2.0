@@ -28,7 +28,10 @@ function App() {
 
       <Header />
       <div className="slick-container">
+        <div className="grad-left"></div>
+        <div className="grad-right"></div>
         <Clients />
+        
       </div>
 
       <Services />
