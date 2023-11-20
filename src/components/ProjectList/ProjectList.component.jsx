@@ -9,7 +9,7 @@ const projects = [
       "Custom theme development for a UK based tool company built on the Big Commerce platform.",
     technologies: ["React", "SCSS"],
     projectSiteLink: "https://eliosedinburgh.com/",
-    projectCodeLink: "",
+    projectCodeLink: "https://github.com/gkinghorn3/Elios",
     projectImage: "/images/elios2.0.png",
     siteType: "site",
   },
