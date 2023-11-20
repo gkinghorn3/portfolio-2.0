@@ -3,7 +3,16 @@ import ProjectCard from "../ProjectCard/ProjectCard.component";
 import "./ProjectList.styles.scss";
 
 const projects = [
-
+  {
+    projectTitle: "Elios",
+    projectDescription:
+      "Custom theme development for a UK based tool company built on the Big Commerce platform.",
+    technologies: ["React", "SCSS"],
+    projectSiteLink: "https://eliosedinburgh.com/",
+    projectCodeLink: "",
+    projectImage: "/images/elios2.0.png",
+    siteType: "site",
+  },
   {
     projectTitle: "Centro Edinburgh",
     projectDescription:
@@ -13,18 +22,18 @@ const projects = [
     projectCodeLink: "",
     projectImage: "/images/centro-fullpage.jpg",
     siteType: "site",
-  }, 
+  },
 
   {
     projectTitle: "N-Durance Tools",
     projectDescription:
       "Custom theme development for a UK based tool company built on the Big Commerce platform.",
     technologies: ["Big Commerce", "Handlebars", "SCSS"],
-    projectSiteLink: "https://centroedinburgh.co.uk/",
+    projectSiteLink: "https://www.ndurancetools.co.uk/",
     projectCodeLink: "",
     projectImage: "/images/Ndurancecapture.jpg",
     siteType: "site",
-  }, 
+  },
 
   {
     projectTitle: "Little White Pig",
@@ -36,32 +45,22 @@ const projects = [
     projectImage: "/images/LWPfullcapture.jpg",
     siteType: "site",
   },
-
-  {
-    projectTitle: "Elios",
-    projectDescription:
-      "Custom theme development for a UK based tool company built on the Big Commerce platform.",
-    technologies: ["React","SCSS"],
-    projectSiteLink: "https://eliosedinburgh.com/",
-    projectCodeLink: "",
-    projectImage: "/images/elios2.0.png",
-    siteType: "site",
-  }, 
-
-
 ];
 
 const ProjectList = () => {
   return (
-    <section className='project-list-container' id='projects'>
-      <h2 className='project-section-heading'>PROJECTS</h2>
-      {
-        projects.map((project, index) => {
-          return <ProjectCard project={project} layoutOrientation={index % 2 === 1 ? 'alternate' : ''} />
-        })
-      }
+    <section className="project-list-container" id="projects">
+      <h2 className="project-section-heading">PROJECTS</h2>
+      {projects.map((project, index) => {
+        return (
+          <ProjectCard
+            project={project}
+            layoutOrientation={index % 2 === 1 ? "alternate" : ""}
+          />
+        );
+      })}
     </section>
-  )
+  );
 };
 
 export default ProjectList;
