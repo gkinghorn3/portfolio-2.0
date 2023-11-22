@@ -8,7 +8,7 @@ const Header = () => {
           <h2>Web Developer </h2>
           <h1>GRANT KINGHORN</h1>
           <p>
-            Hi! I'm a front-end developer based in Edinburgh that specialises 
+            Hi! I'm a front-end developer based in Edinburgh who specialises 
             in creating user experiences that leave a lasting impression. 
             <br/>
             <br/>
