@@ -13,7 +13,7 @@ const Header = () => {
             <br/>
             <br/>
             My go-to
-            tech stack includes: JavaScript, React, Node/Express, and Redux.
+            tech stack includes JavaScript, React, Node/Express, and Redux.
             Alongside my preferred tools, I often work with WordPress, Webflow,
             Big Commerce, and Shopify. 
             <br/>
