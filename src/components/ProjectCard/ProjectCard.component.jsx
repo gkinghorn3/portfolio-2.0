@@ -57,7 +57,7 @@ const ProjectCard = ({
             </span>
           ))}
         </div>
-        <div className="project-links">
+        <div className="project-links" style={{ display: siteType === "graphic" ? "none" : "flex" }}>
           <a href={projectSiteLink} target="blank">
             <span>{`View ${siteType}`}</span>{" "}
             <img src="/images/icons/openLink.svg" />

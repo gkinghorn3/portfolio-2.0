@@ -33,7 +33,7 @@ const projects = [
     projectSiteLink: "",
     projectCodeLink: "",
     projectImage: "/images/MVSportlogo.jpg",
-    siteType: "Demo",
+    siteType: "graphic",
   },
 
 
