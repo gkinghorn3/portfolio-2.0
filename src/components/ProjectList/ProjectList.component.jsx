@@ -26,6 +26,18 @@ const projects = [
   },
 
   {
+    projectTitle: "MV Sport Van Logo",
+    projectDescription:
+      "Logo re-design for MV Commercial's line of Sport Ford Transit vans.",
+    technologies: ["Logo Design", "Adobe Illustrator"],
+    projectSiteLink: "",
+    projectCodeLink: "",
+    projectImage: "/images/MVSportlogo.jpg",
+    siteType: "Demo",
+  },
+
+
+  {
     projectTitle: "Centro Edinburgh",
     projectDescription:
       "A complete website re-design for a city centre family-ran Italian restaurant built using Wordpress & Elementor.",
