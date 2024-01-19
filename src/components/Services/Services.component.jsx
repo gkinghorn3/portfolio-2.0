@@ -10,15 +10,15 @@ const Services = () => {
                 </div>
                  
                 <h3>Web Development</h3>
-                <p>Responsive, accessible and intuitive user experiences built with modern frameworks.</p>
+                <p>Responsive, accessible and intuitive user experiences built with secure & performant technologies.</p>
             </article>
             <article className='service-card'>
                 <div className='icon-container'>
-                     <img src='/icons/ppc-icon.png' alt='' />  
+                     <img src='/icons/SEO-audit.png' alt='' />  
                 </div>
                  
-                <h3>PPC Optimisation</h3>
-                <p>Paid marketing campaign split testing, analysis and management across a variety of channels. </p>
+                <h3>SEO Audits</h3>
+                <p>Thorough technical, on-page, and backlink audits covering the metrics that Google actually uses in their ranking algorithm.</p>
             </article>
             <article className='service-card'>
                 <div className='icon-container'>
@@ -26,15 +26,15 @@ const Services = () => {
                 </div>
                  
                 <h3>SEO Management</h3>
-                <p>Keyword research, on-page optimisation, and content creation to help you climb the search engine results page ladder.</p>
+                <p>Keyword research, on-page optimisations and technical optimisations to help you beat the competitors and generate a "free" automated source of traffic and lead gen.</p>
             </article>
             <article className='service-card'>
                 <div className='icon-container'>
-                     <img src='/icons/ecom-icon.png' alt='' />  
+                     <img src='/icons/content-creation.png' alt='' />  
                 </div>
                  
-                <h3>E-commerce Dev & Management</h3>
-                <p>Support for the whole spectrum of backend e-commerce logistics as well as store development across the main e-com platforms.  </p>
+                <h3>Content Creation</h3>
+                <p>Content strategies that position you as an authority in your industryin Google's eyes.</p>
             </article>
         </section>
     )
