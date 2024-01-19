@@ -34,7 +34,7 @@ const Services = () => {
                 </div>
                  
                 <h3>Content Creation</h3>
-                <p>Content strategies for positioning you as an authority in your industry, and building a hands-off source of traffic & income.</p>
+                <p>Content strategies for positioning you as an authority in your industry and building a hands-off source of traffic & income.</p>
             </article>
         </section>
     )
