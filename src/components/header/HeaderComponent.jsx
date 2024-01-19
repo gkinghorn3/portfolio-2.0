@@ -11,12 +11,7 @@ const Header = () => {
           Hi! I'm an Edinburgh-based web developer and SEO who helps small- to mid-sized businesses grow their organic traffic and lead generation through exceptional user experiences and evidence-based SEO strategies.
 
             <br/>
-            <br/>
-            My go-to
-            tech stack includes JavaScript, React, Node/Express, and Redux.
-            Alongside my preferred tools, I often work with WordPress, Webflow,
-            Big Commerce, and Shopify. 
-            <br/>
+ 
           </p>
         </div>
         <div className="headshot-container">
