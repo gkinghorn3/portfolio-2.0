@@ -5,11 +5,11 @@ const Header = () => {
     <section className="header-container">
       <div className="header-content">
         <div className="text-content">
-          <h2>Web Developer </h2>
+          <h2>Web Developer & SEO Specialist</h2>
           <h1>GRANT KINGHORN</h1>
           <p>
-            Hi! I'm a front-end developer based in Edinburgh who specialises 
-            in creating user experiences that leave a lasting impression. 
+          Hi! I'm an Edinburgh-based web developer and SEO who helps small- to mid-sized businesses grow their organic traffic and lead generation through exceptional user experiences and evidence-based SEO strategies.
+
             <br/>
             <br/>
             My go-to

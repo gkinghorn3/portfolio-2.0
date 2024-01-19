@@ -25,17 +25,6 @@ const projects = [
     siteType: "Demo",
   },
 
-  {
-    projectTitle: "MV Sport Van Logo",
-    projectDescription:
-      "Logo re-design for MV Commercial's line of Sport Ford Transit vans.",
-    technologies: ["Logo Design", "Adobe Illustrator"],
-    projectSiteLink: "",
-    projectCodeLink: "",
-    projectImage: "/images/MVSportlogo.jpg",
-    siteType: "graphic",
-  },
-
 
   {
     projectTitle: "Centro Edinburgh",
