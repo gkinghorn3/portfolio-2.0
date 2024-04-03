@@ -8,7 +8,7 @@ const Header = () => {
           <h2>Web Developer & SEO Specialist</h2>
           <h1>GRANT KINGHORN</h1>
           <p>
-          Hi! I'm an Edinburgh-based web developer and SEO who helps small- to mid-sized businesses grow their organic traffic and lead generation through exceptional user experiences and data-drive SEO strategies.
+          Hi! I'm an Edinburgh-based web developer and SEO specialist who helps small- to mid-sized businesses grow their organic traffic and lead generation through exceptional user experiences and data-drive SEO strategies.
 
             <br/>
  

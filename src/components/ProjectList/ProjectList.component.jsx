@@ -54,7 +54,7 @@ const projects = [
 const ProjectList = () => {
   return (
     <section className="project-list-container" id="projects">
-      <h2 className="project-section-heading">PROJECTS</h2>
+      <h2 className="project-section-heading">SELECTED PROJECTS</h2>
       {projects.map((project, index) => {
         return (
           <ProjectCard
