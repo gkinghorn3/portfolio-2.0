@@ -14,17 +14,6 @@ const projects = [
     siteType: "site",
   },
 
-  {
-    projectTitle: "Uni Quiz Revision App",
-    projectDescription:
-      "A simple React application used for revising my current uni module. The app displays summary stats at the end. See Github readMe for more info.",
-    technologies: ["React", "Vanilla CSS"],
-    projectSiteLink: "https://capable-belekoy-f3ea2a.netlify.app/",
-    projectCodeLink: "https://github.com/gkinghorn3/quiz-app/tree/master",
-    projectImage: "/images/quizApp.webp",
-    siteType: "Demo",
-  },
-
 
   {
     projectTitle: "Centro Edinburgh",
